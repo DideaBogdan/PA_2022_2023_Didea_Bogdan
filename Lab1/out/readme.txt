@@ -1,0 +1,1 @@
+Am facut compulsory si homework.
