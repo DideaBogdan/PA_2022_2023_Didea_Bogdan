@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class Homework {
     public static void main(String[] args) {
@@ -49,6 +49,9 @@ public class Homework {
                 System.out.println(sbColumns);
             }
         }
+
+
+
 
     }
 }
