@@ -20,7 +20,7 @@ public class Bonus {
         }
 
         // 1
-        int [][]adjacencyMatrix =new  int [n][n];
+        int [][]adjacencyMatrix = new  int [n][n];
         int i = 0;
         while ( i < n - 1) {
             adjacencyMatrix[i][i+1] = 1;
@@ -31,8 +31,15 @@ public class Bonus {
         adjacencyMatrix[n-1][0] = 1;
 
 
-        int [][]auxMatrix = new int[n][n];
-        auxMatrix = adjacencyMatrix;
+        for(i = 0; i < n ; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(adjacencyMatrix[i][j] + " ");
+            }
+            System.out.print("\n");
+        }
+
+
+            int[][] auxMatrix = adjacencyMatrix;
 
         for(i=1; i<=n; i++) {
             int[][] adjacencyMatrixPowerN = new int[n][n];
@@ -52,29 +59,5 @@ public class Bonus {
             }
             System.out.print("\n");
         }
-        //2
-    /*
-        if( n * degree % 2 == 1){
-            System.err.print("Can't be done! Make sure the product of the number of vertices and degree is even");
-            System.exit(1);
-        }
-        int [][]adjacencyMatrixRegularGraph = new int[n][n];
-
-        for( i = 0; i < n; i ++){
-            for(int j = i+1; j < n; j++){
-                if((j-i) % n < degree){
-                    adjacencyMatrixRegularGraph[i][j] = 1;
-                    adjacencyMatrixRegularGraph[j][i] = 1;
-                }
-            }
-        }
-
-        for(i = 0; i < n ; i++){
-            for(int j = 0; j < n; j ++ ){
-                System.out.print(adjacencyMatrixRegularGraph[i][j] + " ");
-            }
-            System.out.print("\n");
-        }
-    */
     }
 }

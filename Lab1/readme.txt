@@ -1,1 +1,1 @@
-Am facut compulsory si homework.
+Am facut compulsory si homework, bonus ex 1
