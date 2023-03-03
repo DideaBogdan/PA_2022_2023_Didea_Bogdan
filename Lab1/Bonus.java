@@ -35,11 +35,11 @@ public class Bonus {
             for (int j = 0; j < n; j++) {
                 System.out.print(adjacencyMatrix[i][j] + " ");
             }
-            System.out.print("\n");
+            System.out.println();
         }
 
 
-            int[][] auxMatrix = adjacencyMatrix;
+        int[][] auxMatrix = adjacencyMatrix;
 
         for(i=1; i<=n; i++) {
             int[][] adjacencyMatrixPowerN = new int[n][n];
