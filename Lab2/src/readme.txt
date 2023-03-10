@@ -1,0 +1,1 @@
+Compulsory + homework(fara documentatie si determinare daca se poate ajunge dintr-o locatie in alta)
