@@ -1,21 +1,13 @@
-public class Location {
-    public enum LocationType{
-        CITY,
-        AIRPORT,
-        MALL,
-        GAS_STATION;
-    }
+public abstract class Location {
 
-    private String name;
-    private LocationType type;
-    private double x, y;
+    protected String name;
+    protected double x, y;
 
     public Location(){
 
     }
-    public Location(String name, LocationType type, double x, double y) {
+    public Location(String name, double x, double y) {
         this.name = name;
-        this.type = type;
         this.x = x;
         this.y = y;
     }
@@ -28,13 +20,6 @@ public class Location {
         this.name = name;
     }
 
-    public LocationType getType() {
-        return type;
-    }
-
-    public void setType(LocationType type) {
-        this.type = type;
-    }
 
     public double getX() {
         return x;
@@ -57,14 +42,13 @@ public class Location {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Location location = (Location) o;
-        return Double.compare(location.x, x) == 0 && Double.compare(location.y, y) == 0 && name.equals(location.name) && type == location.type;
+        return Double.compare(location.x, x) == 0 && Double.compare(location.y, y) == 0 && name.equals(location.name);
     }
 
     @Override
     public String toString() {
         return "Location{" +
                 "name='" + name + '\'' +
-                ", type=" + type +
                 ", x=" + x +
                 ", y=" + y +
                 '}';
