@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<ul>
+    #foreach($entry in $catalog)
+        <li> { id = $entry.id , title = $entry.title , location = $entry.location, tags = $entry.tags } </li>
+    #end
+</ul>
+</body>
+</html>

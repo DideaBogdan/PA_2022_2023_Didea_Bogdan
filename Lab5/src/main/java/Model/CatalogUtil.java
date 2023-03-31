@@ -1,8 +1,10 @@
+package Model;
+
+import Model.Catalog;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.runtime.ObjectMethods;
 
 public class CatalogUtil {
     public static void save(Catalog catalog, String path) throws IOException{
