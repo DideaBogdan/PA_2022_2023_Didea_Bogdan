@@ -18,9 +18,10 @@ public class MainFrame extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         //create the components
-        canvas = new DrawingPanel(this);
+
         controlPanel = new ControlPanel(this);
         configPanel = new ConfigPanel(this);
+        canvas = new DrawingPanel(this);
  //...TODO
 
         //arrange the components in the container (frame)

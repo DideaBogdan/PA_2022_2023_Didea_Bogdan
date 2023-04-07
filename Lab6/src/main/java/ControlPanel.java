@@ -24,6 +24,7 @@ public class ControlPanel extends JPanel {
 
         //configure listeners for all buttons
         exitBtn.addActionListener(this::exitGame);
+
  //...TODO
     }
     private void exitGame(ActionEvent e) {
