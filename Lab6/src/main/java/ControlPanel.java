@@ -24,11 +24,15 @@ public class ControlPanel extends JPanel {
 
         //configure listeners for all buttons
         exitBtn.addActionListener(this::exitGame);
-
+        saveBtn.addActionListener(this::saveGame);
  //...TODO
     }
     private void exitGame(ActionEvent e) {
         frame.dispose();
     }
- //...TODO
+
+
+    private void saveGame(ActionEvent e){
+        frame.canvas.saveGame("save.txt");
+    }
 }
