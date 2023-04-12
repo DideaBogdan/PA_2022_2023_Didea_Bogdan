@@ -1,0 +1,1 @@
+Aplicatia deseneaza un joc in functie de numarul de puncte si probabilitatea muchiilor, deseneaza muchiile la click, pe rand, rosu si albastru
