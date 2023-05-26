@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>API Data</title>
+</head>
+<body>
+<h1>List of players:</h1>
+<pre th:method="getPlayers" th:text="${jsonData}"></pre>
+<button id="getPlayers" name="getPlayers" th:onclick="|window.location.href='/'|" th:method="getPlayers">Get players</button>
+
+<h1>Add a player</h1>
+<form action="#1" id="add" th:action="@{/}"  th:object="${player}" th:method="post">
+    <p>Username: <input type="text" id="form_add_user1" th:field="*{username}" /></p>
+    <p>Password: <input type="text" id="form_add_user2"  th:field="*{password}" /></p>
+    <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+
+
+<h1>Update a player</h1>
+<form action="#2" id="update" th:action="@{/}"  th:object="${player}" th:method="put">
+    <p>Id: <input type="number" id="form_update_id" th:field="*{id}" /></p>
+    <p>Updated Username: <input type="text" id="form_update_user" th:field="*{username}" /></p>
+    <p>Updated Password: <input type="text" id="form_update_password" th:field="*{password}" /></p>
+    <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+
+
+
+<h1>Delete a player</h1>
+<form action="#3" id="delete" th:action="@{/}"  th:object="${player}" th:method="delete">
+    <p>Id: <input type="number" id="form_delete_player" th:field="*{id}" /></p>
+    <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+
+
+</body>
+</html>

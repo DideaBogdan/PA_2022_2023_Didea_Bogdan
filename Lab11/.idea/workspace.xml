@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="54aa50d8-488c-49d5-bfb8-ae2ecdfa347b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/Lab10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/Client/Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/Client/src/main/java/GameClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/Server/Server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10/Server/src/main/java/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/albumlist.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/src/main/java/AlbumDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/src/main/java/AlbumGenresDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab8/src/main/java/GenresDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/src/main/java/ArtistDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/src/main/java/ArtistDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/src/main/java/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/src/main/java/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="0cdf25e5-1601-47c8-8771-abf0d7fad8dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/main/java/MyProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/src/main/java/MyTestFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/HelloControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +26,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Q03IbvQsfruKYC4ZDc6wrWgSKV" />
+  <component name="ProjectId" id="2QJpqeS6CkLJqwNp46QFObwtxBe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,43 +35,41 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/.mvn" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\FACULTATE\Anul_3_Sem_2\Programare avansata\PA_2022_2023_Didea_Bogdan\Lab11" />
-      <recent name="D:\FACULTATE\Anul_3_Sem_2\Programare avansata\PA_2022_2023_Didea_Bogdan\Lab11\.mvn" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/demo" />
   </component>
   <component name="RunManager">
-    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
-      <module name="Lab11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/client/demo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DemoApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="54aa50d8-488c-49d5-bfb8-ae2ecdfa347b" name="Changes" comment="" />
-      <created>1684476594656</created>
+      <changelist id="0cdf25e5-1601-47c8-8771-abf0d7fad8dc" name="Changes" comment="" />
+      <created>1685081730470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684476594656</updated>
+      <updated>1685081730470</updated>
     </task>
     <servers />
   </component>
